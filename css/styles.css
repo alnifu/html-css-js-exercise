@@ -1,0 +1,13 @@
+body {
+    background-color: #f0f0f0; /* Light grey background */
+    color: #000000; /* Black text */
+    font-family: Arial, sans-serif; /* Default font */
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #F0F0FF; /* Light greyish-blue background */
+    padding: 10px 20px;
+    border-bottom: 1px solid #e0e0e0; /* Light border to separate navbar */
+}

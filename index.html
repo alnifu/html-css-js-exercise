@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/styles.css" />
+
+</head>
+
+<body>
+    <!-- Navbar Start -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-secondary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">My Portfolio</a>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Navbar End -->
+
+    <main class="pt-4">
+
+
+        <section id="about" class="mb-4">
+            <div class="container-lg section-1">
+                <h1 class="text-center">About Me</h1>
+                <div class="row align-items-center">
+                    <div class="col-md-4 text-center">
+                        <img src="images/mypic.jpg" class="img-fluid rounded-circle" alt="Your Name">
+                    </div>
+                    <div class="col-md-8">
+                        <p class="fs-4">Hey. I am Mat. Look at my neutral face. Jk. Cool to see you snoopin' around. You're here anyway. How about
+                            you take a look at
+                            my portfolio? Maybe you'll see something interesting. Or not.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container-lg section-2">
+                <h1 class="text-center pb-4 pt-4">Projects</h1>
+                <div class="row g-4">
+                    <!-- Project 1 -->
+                    <div class="col-md-4">
+                        <div class="card">
+                            <h4 class="card-title-overlay text-center pt-4">Project 1</h4>
+                            <img src="images/project1.jpg" class="card-img-top" alt="Project 1 Image">
+                            <div class="card-body">
+                                <p class="card-text">Short description of Project 1.</p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#project1Modal">
+                                    More Details
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="col-md-4">
+                        <div class="card">
+                            <h4 class="card-title-overlay text-center pt-4">Project 2</h4>
+                            <img src="images/project2.jpg" class="card-img-top" alt="Project 2 Image">
+                            <div class="card-body">
+                                <p class="card-text">Short description of Project 2.</p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#project2Modal">
+                                    More Details
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="col-md-4">
+                        <div class="card">
+                            <h4 class="card-title-overlay text-center pt-4">Project 3</h4>
+                            <img src="images/project3.jpg" class="card-img-top" alt="Project 3 Image">
+                            <div class="card-body">
+                                <p class="card-text">Short description of Project 3.</p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#project3Modal">
+                                    More Details
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 1 Modal -->
+            <div class="modal fade" id="project1Modal" tabindex="-1" aria-labelledby="project1ModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="project1ModalLabel">Project 1 Details</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            Detailed information about Project 1.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 Modal -->
+            <div class="modal fade" id="project2Modal" tabindex="-1" aria-labelledby="project2ModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="project2ModalLabel">Project 2 Details</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            Detailed information about Project 2.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 Modal -->
+            <div class="modal fade" id="project3Modal" tabindex="-1" aria-labelledby="project3ModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="project3ModalLabel">Project 3 Details</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            Detailed information about Project 3.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container-lg section-3 pt-4 pb-4">
+                <h1 class="text-center pb-4">Contact</h1>
+                <form class="row g-3" id="contactForm">
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" id="inputName" placeholder="Your Name">
+                        <span id="nameError"></span>
+                    </div>
+                    <div class="col-md-6">
+                        <input type="email" class="form-control" id="inputEmail" placeholder="Your Email">
+                        <span id="emailError"></span>
+                    </div>
+                    <div class="col-12">
+                        <input type="text" class="form-control" id="inputSubject" placeholder="Subject">
+                        <span id="subjectError"></span>
+                    </div>
+                    <div class="col-12">
+                        <textarea class="form-control" id="inputMessage" rows="4" placeholder="Your Message"></textarea>
+                        <span id="messageError"></span>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    
+        <!-- Modal -->
+        <div class="modal fade" id="submissionModal" tabindex="-1" aria-labelledby="submissionModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="submissionModalLabel">Form Submitted</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Your message has been sent successfully!
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p class="text-center">&copy; 2024 Mat</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+        
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
